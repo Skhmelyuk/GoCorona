@@ -1,0 +1,23 @@
+.footer {
+  padding: 25px 0px 40px 0px;
+  @media (max-width: 489.98px) {
+    padding: 15px 0px 20px 0px;
+  }
+  // .footer__container
+  &__container {
+  }
+  // .footer__items
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+    @media (max-width: 489.98px) {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  // .footer__item
+  &__item {
+  }
+}
